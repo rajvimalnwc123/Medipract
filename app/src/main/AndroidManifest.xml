@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nwcemp01.medipract">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="Medipract"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Category"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Doctor"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".CalendarFragment"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Booking"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".BooklaterSubmitform"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" ></activity>
+        <activity
+            android:name=".Submitform"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" ></activity>
+
+        <activity
+            android:name=".BooklaterSpecialization"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" ></activity>
+
+
+        <activity
+            android:name=".BooklaterDoctor"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" ></activity>
+
+        <activity
+            android:name=".Thankyouform"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBAr"
+            android:windowSoftInputMode="stateHidden" ></activity>
+
+
+    </application>
+
+</manifest>

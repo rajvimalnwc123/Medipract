@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/ET_hospitalname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your hospital"
+        android:paddingBottom="@dimen/edittext_padding_bottom"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:textSize="@dimen/TextSize_Normal" />
+
+
+    <EditText
+        android:id="@+id/ET_emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your emailid"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="@dimen/edittext_padding_bottom"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:textSize="@dimen/TextSize_Normal" />
+
+
+
+    <EditText
+        android:id="@+id/ET_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your pssword"
+        android:inputType="numberPassword|text"
+        android:paddingBottom="@dimen/edittext_padding_bottom"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:textSize="@dimen/TextSize_Normal" />
+
+
+
+
+    <Button
+        android:id="@+id/BT_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_layout_password"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:background="?attr/selectableItemBackground"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/TextSize_Normal" />
+
+</LinearLayout>

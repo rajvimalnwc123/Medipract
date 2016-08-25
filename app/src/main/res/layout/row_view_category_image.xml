@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:layout_width="94dp"
+        android:layout_height="94dp">
+
+        <ImageView
+            android:id="@+id/RVCI_IV_category_image"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/RVCI_TV_category_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center|bottom"
+            android:text="dsadaasdadadadsadassa"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/TextSize_Small"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>
+
